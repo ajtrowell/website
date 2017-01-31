@@ -25,6 +25,17 @@ inside the border and padding.*/
   height: 100%;
   background: rgba(230,200,250, 1);
 }
+#nav-bar li{
+  list-style: none;
+}
+#nav-bar li a{
+  color: white;
+  text-decoration: none;
+}
+#nav-bar li a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
 .section {
   /* position is static by default */
   margin-left: 180px;
@@ -35,12 +46,17 @@ inside the border and padding.*/
   white-space: pre-line;
 }
 #footer {
-  position: fixed;
+  /*Footer Properties*/
   bottom: 0;
   left: 0;
+  /*position: fixed;*/
   height: 40px;
-  background-color: lightskyblue;
   width: 100%;
+  background-color: grey;
+  /*Text Properties*/
+  color: white;
+  text-align: right;
+  padding: 10px;
 }
 body {
   margin-bottom: 60px;
